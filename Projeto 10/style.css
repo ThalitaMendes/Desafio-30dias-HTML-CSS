@@ -1,0 +1,46 @@
+body
+{   
+    margin: 0;
+    background-color: rgb(78, 241, 241);
+    align-items: center;
+    justify-content: center;
+}
+.text
+{   position: absolute;
+    left: 40%;
+    top: 30%;
+    transform: translate(-35%, -50%);
+    font-family: 'Gloria Hallelujah', cursive;
+    font-size: 130px;
+    text-align: center;
+    color: #262626;
+}
+span{
+    position: absolute;
+    left: 50%;
+    top:50%;
+    font-size: 100px;
+    transform: translate(-50%, -50%);
+}
+span:before
+{
+    content: '';
+    animation: word-swith 4s infinite;
+}
+
+@keyframes word-swith 
+{
+    0% {content: '😆';}
+
+    20%{content: '😭';}
+
+    40%{content: '😈';}
+    
+    60% {content: '🤬';}
+
+    80%{content: '😱';}
+
+    100%{content: '😴';}
+}
+    
+}
