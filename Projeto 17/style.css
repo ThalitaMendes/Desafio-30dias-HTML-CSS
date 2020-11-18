@@ -1,0 +1,66 @@
+body
+{
+    margin:0;
+    padding: 0;
+    font-family: verdana;
+    background: #262626;
+}
+.container
+{
+    width: 100%;
+    height: 200px;
+    display:flex;
+    box-sizing: border-box;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.box
+{
+    width: auto;
+    text-align: center;
+    line-height: 200px;
+    flex-grow: 1;
+    transition: .5s;
+    font-size: 1.2em;
+    color: #fff;
+    background: #f00;
+}
+.box:hover
+{
+    flex-grow: 4;
+    max-width: 100%;
+    font-size: 2em;    
+}
+.container .box:nth-child(1)
+{
+    background: #0c0a3e;
+}
+.container .box:nth-child(2)
+{
+    background: #7b1e7a;
+}
+.container .box:nth-child(3)
+{
+    background: #b33f62;
+}
+.container .box:nth-child(4)
+{
+    background: #f9564f;
+}
+.container .box:nth-child(5)
+{
+    background: #f68e63;
+}
+.container .box:nth-child(6)
+{
+    background: #f3c677;
+}
+.container .box:nth-child(7)
+{
+    background: #ccff66;
+}
+.container .box:nth-child(8)
+{
+    background: #2ec4b6;
+}
